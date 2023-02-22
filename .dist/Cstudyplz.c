@@ -2,16 +2,16 @@
 
 int main(void)
 {
+    int time;
 
-    printf("지금부터 다시한다.");
-    printf("두번째");
-    fpdfs;
-    ㅇ아아;
-    다시 수정해서.
+    printf("초를 시간으로 변환해드립니다 시 분 초 :");
+    scanf("%d", &time); // 타임에 값 받기
 
-        다시 올려볼게
-        // 하하.ㅇㅇ
-        // dfsf
+    int hour = time / 3600;
+    int min = (time % 3600) / 60;
+    int sec = (time % 3600) % 60;
 
-        return 0;
+    printf("입력하신 %d은 %d시 %d분 %d 초 입니다.", time, hour, min, sec);
+    // 맥으로 올린다.
+    return 0;
 }
