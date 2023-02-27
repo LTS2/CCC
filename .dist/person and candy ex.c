@@ -21,7 +21,7 @@ int main(void)
     scanf("%d", &candy);
 
     result = candy / person;
-    last = candy % person;
+    last = candy / person;
 
     printf("1인당 사탕 개수 : %d\n 남은 사탕 개수 %d\n", result, last);
 
